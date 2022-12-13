@@ -8,7 +8,7 @@ FROM nginx:latest
 
 # Adding custom index.html hosted on Github
 
-ADD https://raw.githubusercontent.com/Monilakshmi/Nginx-dockerfile/master/nginx/index.html /usr/share/nginx/html/
+ADD https://raw.githubusercontent.com/Prasa07/docker-test/main/index.html /usr/share/nginx/html/
 
 
 
